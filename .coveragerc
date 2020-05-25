@@ -1,0 +1,10 @@
+# .coveragerc to control coverage.py
+[run]
+branch = True
+source = tdameritrade
+
+[report]
+ignore_errors = True
+omit =
+    */tests/*
+
